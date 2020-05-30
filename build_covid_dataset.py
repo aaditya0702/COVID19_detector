@@ -12,7 +12,7 @@ import shutil
 import os
 
 #selecting the disease
-virus = "COVID-19"
+virus = "COVID-19, ARDS"
 #selecting the X-ray view required
 X_ray_view = "PA"
 
