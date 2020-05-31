@@ -36,8 +36,8 @@ random.shuffle(imagePaths)
 imagePaths = imagePaths[:args["samplesize"]]
 
 # Iterating through selected image paths
-for (i, imagePath) in imagePaths:
+for (i, imagePath) in enumerate(imagePaths):
     filename = imagePath.split(os.path.sep)[-1]
-    outputImg = os.path.sep.join(args["outputpath"],filename)       #constructing output file path
+    outputImg = os.path.sep.join([args["outputpath"],filename])       #constructing output file path
 
     shutil.copy2(imagePath, outputImg)                              #copying the image to output directory
