@@ -6,6 +6,7 @@ This code obtains X-ray images of a healthy person. The images are copied to the
 + The code creates a list of all healthy x-rays and chooses a random subset of required size (again specified as an argument.) 
 + The image files are copied from the NORMAL folder to the outputpath. 
 
+Usage: python kaggle_xrays.py --normalpath chest_xray --outputpath dataset/normal
 
 '''
 
