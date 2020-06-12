@@ -12,13 +12,13 @@ import shutil
 import os
 
 #selecting the disease
-virus = "COVID-19, ARDS"
+virus = "Pneumonia"
 #selecting the X-ray view required
 X_ray_view = "PA"
 
-metadata_csv = "./covid-chestxray-dataset/metadata.csv"     # Meta info
-imageDir = "./covid-chestxray-dataset/images"               # Directory of images
-outputDir = "./dataset/covid"       # Output directory to store selected images
+metadata_csv = "./covid_chest_chestxray/metadata.csv"     # Meta info
+imageDir = "./covid_chest_chestxray/images"               # Directory of images
+outputDir = "./dataset/pneumonia"       # Output directory to store selected images
 
 if not os.path.exists(outputDir):   #check if directory exists and create one if not
     os.makedirs(outputDir)
@@ -29,6 +29,6 @@ metadata = pd.read_csv(metadata_csv)
 #iterating through rows of metadata dataframe
 for index, row in metadata.iterrows():
     if row['finding'] == virus and row['view'] == X_ray_view:
-        fileName = row['filename'].split(os.path.sep)[-1]   #get only the filename if the filename contains full path
+        fileName = row['filename'].split(os.path.sep)[-1]  #get only the filename if the filename contains full path
         filePath = os.path.sep.join([imageDir,fileName])    #get the full path to the file present in the images directory 
         shutil.copy2(filePath, outputDir)                   #copy file to outputDir
