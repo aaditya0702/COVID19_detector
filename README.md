@@ -2,7 +2,7 @@
 
 The aim is to create a deep learning model using Keras and Tensorflow to predict whether a person is infected by the Coronavirus. Since large scale testing of coronavirus is very difficult and an x-ray machine is present in most places around the world, this might be an effective way to detect the virus. 
 
-The proposed model is developed to provide accurate diagnostics for binary classification (COVID vs Healthy) and multi-class classification (COVID vs Healthy and Pneumonia). The VGG16 model provided an accuracy of *98.5%* and *97.33%* respectively. 
+The proposed model is developed to provide accurate diagnostics for classification of COVID vs Healthy and classification of COVID vs Healthy and Pneumonia. The VGG16 model provided an accuracy of **98.5%** and **97.33%** respectively. 
 
 We spent a lot of time reading different scientific papers and blogs to understand how to create models for medical data such as x-rays. 
 
@@ -66,6 +66,6 @@ We used Kaggle's Chest X-ray images (Pneumonia) dataset to get a set of healthy 
 Link: https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
 
 ### Authors
-Manas Minnoor 
+Manas Minnoor <br />
 Aaditya Singh
 
