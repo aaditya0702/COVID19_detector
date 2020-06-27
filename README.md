@@ -38,15 +38,15 @@ Initially, our model was giving generalizing most of the xrays to give a negativ
 
 Clearly, the VGG16 convolutional neural network has the best results. 
 
-The VGG-16 produced the following activations for COVID X-rays:
+The VGG-16 produced the following activations for COVID X-rays:<br />
 ![alt text](https://github.com/aaditya0702/coronavirus_detector/blob/master/sample/COVID1.png?raw=true)
 ![alt text](https://github.com/aaditya0702/coronavirus_detector/blob/master/sample/COVID2.png?raw=true)
 ![alt text](https://github.com/aaditya0702/coronavirus_detector/blob/master/sample/COVID3.png?raw=true)
 
-It produced the following activations for pneumonia X-rays: 
+It produced the following activations for pneumonia X-rays:<br />
 ![alt text](https://github.com/aaditya0702/coronavirus_detector/blob/master/sample/PNEUMONIA1.png?raw=true)
 
-It produced the following activations for normal X-rays:
+It produced the following activations for normal X-rays:<br />
 ![alt text](https://github.com/aaditya0702/coronavirus_detector/blob/master/sample/NORMAL1.png?raw=true)
 ![alt text](https://github.com/aaditya0702/coronavirus_detector/blob/master/sample/NORMAL2.png?raw=true)
 
