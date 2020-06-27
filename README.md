@@ -10,15 +10,16 @@ Our dataset consisted of 447 Covid19 infected x-rays, 1211 pneumonia infected x 
 First, we trained the CNNs on a dataset consisting of only covid and healthy x rays. We tried several models like VGG16, VGG19, Resnet50, Resnet101 and a basic CNN model of our own. 
 
 
-    Basic Model: Accuracy: 93.5% F1 Score: 0.93
-
-    ResNet50: Accuracy: 86% F1 Score: 0.84
-
-    VGG16: Accuracy: 98.5% F1 Score: 0.985
-
-    ResNet101: Accuracy: 90.5% F1 Score: 0.895
-
-    VGG19: Accuracy: 97.5% F1 Score: 0.974
+    Basic Model: Accuracy: 93.5% 
+                 F1 Score: 0.93
+    ResNet50:    Accuracy: 86% 
+                 F1 Score: 0.84
+    VGG16:       Accuracy: 98.5% 
+                 F1 Score: 0.985
+    ResNet101:   Accuracy: 90.5% 
+                 F1 Score: 0.895
+    VGG19:       Accuracy: 97.5% 
+                 F1 Score: 0.974
 
 Next, we grouped the pneumonia and normal pictures to simulate realistic situations. 
 
